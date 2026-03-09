@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privatlivspolitik – Babynavn - Swipe et navn</title>
+<style>
+  :root {
+    --pink: #E8879A;
+    --dark: #3D3035;
+    --muted: #6B6068;
+    --light: #FAF7F5;
+    --border: #E8E2DE;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--dark);
+    background: var(--light);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .logo h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--pink);
+    margin-bottom: 4px;
+  }
+  .logo p {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 24px 0 8px;
+  }
+  p {
+    margin-bottom: 12px;
+    color: var(--muted);
+  }
+  ul {
+    margin: 8px 0 16px 24px;
+    color: var(--muted);
+  }
+  li { margin-bottom: 6px; }
+  a { color: var(--pink); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .updated {
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+  .lang-switch {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .lang-switch button {
+    background: none;
+    border: 1.5px solid var(--border);
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--muted);
+    transition: all 0.2s;
+    margin: 0 4px;
+  }
+  .lang-switch button.active {
+    border-color: var(--pink);
+    color: var(--pink);
+    background: #FFF5F7;
+  }
+  .lang-switch button:hover { border-color: var(--pink); }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">
+    <h1>Babynavn</h1>
+    <p>Swipe et navn</p>
+  </div>
+
+  <div class="lang-switch">
+    <button class="active" onclick="switchLang('da')">Dansk</button>
+    <button onclick="switchLang('en')">English</button>
+  </div>
+
+  <!-- ==================== DANSK ==================== -->
+  <div id="lang-da" class="lang-section active">
+
+    <h2>Privatlivspolitik</h2>
+    <p>Denne privatlivspolitik beskriver, hvordan Babynavn - Swipe et navn ("appen", "vi", "os") indsamler, bruger og beskytter dine oplysninger, når du bruger vores mobilapplikation.</p>
+    <p>Ved at bruge appen accepterer du de praksisser, der er beskrevet i denne politik.</p>
+
+    <h2>1. Hvilke data indsamler vi?</h2>
+
+    <h3>1.1 Data du selv angiver</h3>
+    <p>Appen kræver ikke oprettelse af en brugerkonto. Vi indsamler ikke dit navn, din e-mailadresse eller andre personlige oplysninger direkte fra dig.</p>
+    <p>Hvis du opretter en parkode for at forbinde med din partner, genereres denne lokalt og bruges udelukkende til at matche navnevalg mellem to enheder.</p>
+
+    <h3>1.2 Data indsamlet automatisk</h3>
+    <p>Vi bruger Google AdMob til at vise annoncer i appen. Google AdMob SDK indsamler automatisk visse oplysninger, herunder:</p>
+    <ul>
+      <li>IP-adresse (kan bruges til at estimere omtrentlig placering)</li>
+      <li>Enhedsidentifikatorer (annonce-ID)</li>
+      <li>Brugerinteraktioner med annoncer (visninger, klik)</li>
+      <li>Diagnosticeringsoplysninger og fejllogfiler</li>
+      <li>Enhedsoplysninger (model, operativsystem, skærmstørrelse)</li>
+    </ul>
+    <p>Disse data indsamles og behandles af Google i overensstemmelse med <a href="https://policies.google.com/privacy" target="_blank">Googles privatlivspolitik</a>.</p>
+
+    <h3>1.3 Data vi ikke indsamler</h3>
+    <p>Vi indsamler ikke:</p>
+    <ul>
+      <li>Dit navn, e-mail eller kontaktoplysninger</li>
+      <li>Betalingsoplysninger</li>
+      <li>Præcis geografisk placering (GPS)</li>
+      <li>Billeder, kontakter eller andre følsomme data fra din enhed</li>
+    </ul>
+
+    <h2>2. Formål med databehandling</h2>
+    <p>De data, der indsamles via Google AdMob, bruges til følgende formål:</p>
+    <ul>
+      <li><strong>Visning af annoncer:</strong> Levering af relevante annoncer, herunder personaliserede annoncer baseret på dine interesser.</li>
+      <li><strong>Analyse og forbedring:</strong> Forståelse af annoncers ydeevne og forbedring af annoncelevering.</li>
+      <li><strong>Svindelforebyggelse:</strong> Sikring mod svigagtig annoncetrafik.</li>
+    </ul>
+
+    <h2>3. Personaliserede annoncer</h2>
+    <p>Google AdMob kan vise personaliserede annoncer baseret på dine interesser. Personaliserede annoncer bruger data som tidligere app-brug og søgehistorik til at vise mere relevante annoncer.</p>
+    <p>Du kan til enhver tid fravælge personaliserede annoncer via:</p>
+    <ul>
+      <li><strong>Android:</strong> Indstillinger → Google → Annoncer → Fravælg personalisering af annoncer</li>
+      <li><a href="https://adssettings.google.com/" target="_blank">Google Annonceindstillinger</a></li>
+    </ul>
+    <p>Hvis du fravælger personaliserede annoncer, vil du stadig se annoncer, men de vil ikke være baseret på dine interesser.</p>
+
+    <h2>4. Tredjepartstjenester</h2>
+    <p>Appen benytter følgende tredjepartstjenester, som har deres egne privatlivspolitikker:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob (Google LLC)</a></li>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google Analytics for Firebase</a> (hvis relevant)</li>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
+    </ul>
+    <p>Vi opfordrer dig til at læse disse tredjeparters privatlivspolitikker for at forstå, hvordan de behandler dine data.</p>
+
+    <h2>5. Datalagring og sikkerhed</h2>
+    <p>Vi lagrer ikke personlige data på vores egne servere. Alle data, der indsamles via Google AdMob, behandles og opbevares af Google i henhold til deres egne sikkerhedsstandarder. Data overføres krypteret via TLS.</p>
+    <p>Dine navnevalg og favoritter gemmes lokalt på din enhed og deles ikke med os eller tredjeparter, medmindre du aktivt vælger at bruge parkode-funktionen.</p>
+
+    <h2>6. Dine rettigheder (GDPR)</h2>
+    <p>Som bruger i EU/EØS har du følgende rettigheder i henhold til Databeskyttelsesforordningen (GDPR):</p>
+    <ul>
+      <li><strong>Ret til indsigt:</strong> Du kan anmode om at se, hvilke data der er indsamlet om dig.</li>
+      <li><strong>Ret til berigtigelse:</strong> Du kan anmode om rettelse af unøjagtige data.</li>
+      <li><strong>Ret til sletning:</strong> Du kan anmode om sletning af dine data.</li>
+      <li><strong>Ret til begrænsning:</strong> Du kan anmode om begrænsning af databehandling.</li>
+      <li><strong>Ret til dataportabilitet:</strong> Du kan anmode om at få dine data i et overførbart format.</li>
+      <li><strong>Ret til indsigelse:</strong> Du kan gøre indsigelse mod behandling af dine data, herunder til markedsføringsformål.</li>
+    </ul>
+    <p>For at udøve dine rettigheder kan du kontakte os på den e-mailadresse, der er angivet nedenfor.</p>
+    <p>Første gang du åbner appen, vil du blive bedt om samtykke til dataindsamling i forbindelse med annoncer via Googles samtykkediskplay (Consent Management Platform).</p>
+
+    <h2>7. Børns privatliv</h2>
+    <p>Appen er ikke rettet mod børn under 13 år. Vi indsamler ikke bevidst personlige oplysninger fra børn under 13 år. Hvis du er forælder eller værge og opdager, at dit barn har givet os personlige oplysninger, bedes du kontakte os, så vi kan fjerne disse oplysninger.</p>
+    <p>Selvom appen bruges af kommende forældre til at finde babynavne, er appens brugere voksne, og annoncering er målrettet voksne brugere.</p>
+
+    <h2>8. Ændringer i denne politik</h2>
+    <p>Vi kan opdatere denne privatlivspolitik fra tid til anden. Eventuelle ændringer vil blive offentliggjort på denne side med en opdateret dato. Vi opfordrer dig til at gennemgå denne politik regelmæssigt.</p>
+
+    <h2>9. Kontakt</h2>
+    <p>Hvis du har spørgsmål eller bekymringer vedrørende denne privatlivspolitik, er du velkommen til at kontakte os:</p>
+    <p><strong>E-mail:</strong> <a href="mailto:kontakt@babynavn.app">kontakt@babynavn.app</a></p>
+    <p><em>Erstat venligst ovenstående e-mailadresse med din faktiske kontaktadresse.</em></p>
+
+    <p class="updated">Senest opdateret: 8. marts 2026</p>
+  </div>
+
+  <!-- ==================== ENGLISH ==================== -->
+  <div id="lang-en" class="lang-section">
+
+    <h2>Privacy Policy</h2>
+    <p>This privacy policy describes how Babynavn - Swipe et navn ("the app", "we", "us") collects, uses, and protects your information when you use our mobile application.</p>
+    <p>By using the app, you agree to the practices described in this policy.</p>
+
+    <h2>1. What data do we collect?</h2>
+
+    <h3>1.1 Data you provide</h3>
+    <p>The app does not require you to create a user account. We do not collect your name, email address, or other personal information directly from you.</p>
+    <p>If you create a pair code to connect with your partner, this is generated locally and used solely to match name choices between two devices.</p>
+
+    <h3>1.2 Data collected automatically</h3>
+    <p>We use Google AdMob to display advertisements in the app. The Google AdMob SDK automatically collects certain information, including:</p>
+    <ul>
+      <li>IP address (may be used to estimate approximate location)</li>
+      <li>Device identifiers (advertising ID)</li>
+      <li>User interactions with advertisements (views, clicks)</li>
+      <li>Diagnostic information and crash logs</li>
+      <li>Device information (model, operating system, screen size)</li>
+    </ul>
+    <p>This data is collected and processed by Google in accordance with <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+    <h3>1.3 Data we do not collect</h3>
+    <p>We do not collect:</p>
+    <ul>
+      <li>Your name, email, or contact information</li>
+      <li>Payment information</li>
+      <li>Precise geographic location (GPS)</li>
+      <li>Photos, contacts, or other sensitive data from your device</li>
+    </ul>
+
+    <h2>2. Purpose of data processing</h2>
+    <p>The data collected through Google AdMob is used for the following purposes:</p>
+    <ul>
+      <li><strong>Ad delivery:</strong> Serving relevant advertisements, including personalized ads based on your interests.</li>
+      <li><strong>Analytics and improvement:</strong> Understanding ad performance and improving ad delivery.</li>
+      <li><strong>Fraud prevention:</strong> Protecting against fraudulent ad traffic.</li>
+    </ul>
+
+    <h2>3. Personalized advertising</h2>
+    <p>Google AdMob may show personalized advertisements based on your interests. Personalized ads use data such as previous app usage and search history to display more relevant advertisements.</p>
+    <p>You can opt out of personalized advertising at any time via:</p>
+    <ul>
+      <li><strong>Android:</strong> Settings → Google → Ads → Opt out of ads personalization</li>
+      <li><a href="https://adssettings.google.com/" target="_blank">Google Ad Settings</a></li>
+    </ul>
+    <p>If you opt out of personalized ads, you will still see advertisements, but they will not be based on your interests.</p>
+
+    <h2>4. Third-party services</h2>
+    <p>The app uses the following third-party services, each with their own privacy policies:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob (Google LLC)</a></li>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google Analytics for Firebase</a> (if applicable)</li>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
+    </ul>
+    <p>We encourage you to review the privacy policies of these third parties to understand how they process your data.</p>
+
+    <h2>5. Data storage and security</h2>
+    <p>We do not store personal data on our own servers. All data collected through Google AdMob is processed and stored by Google according to their own security standards. Data is transmitted encrypted via TLS.</p>
+    <p>Your name choices and favorites are stored locally on your device and are not shared with us or third parties, unless you actively choose to use the pair code feature.</p>
+
+    <h2>6. Your rights (GDPR)</h2>
+    <p>As a user in the EU/EEA, you have the following rights under the General Data Protection Regulation (GDPR):</p>
+    <ul>
+      <li><strong>Right of access:</strong> You can request to see what data has been collected about you.</li>
+      <li><strong>Right to rectification:</strong> You can request correction of inaccurate data.</li>
+      <li><strong>Right to erasure:</strong> You can request deletion of your data.</li>
+      <li><strong>Right to restriction:</strong> You can request limitation of data processing.</li>
+      <li><strong>Right to data portability:</strong> You can request your data in a transferable format.</li>
+      <li><strong>Right to object:</strong> You can object to the processing of your data, including for marketing purposes.</li>
+    </ul>
+    <p>To exercise your rights, you can contact us at the email address provided below.</p>
+    <p>When you first open the app, you will be asked to consent to data collection related to advertising via Google's Consent Management Platform.</p>
+
+    <h2>7. Children's privacy</h2>
+    <p>The app is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and discover that your child has provided us with personal information, please contact us so we can remove that information.</p>
+    <p>Although the app is used by expecting parents to find baby names, the app's users are adults, and advertising is targeted at adult users.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be published on this page with an updated date. We encourage you to review this policy regularly.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions or concerns regarding this privacy policy, please contact us:</p>
+    <p><strong>Email:</strong> <a href="mailto:kontakt@babynavn.app">kontakt@babynavn.app</a></p>
+    <p><em>Please replace the above email address with your actual contact address.</em></p>
+
+    <p class="updated">Last updated: March 8, 2026</p>
+  </div>
+
+</div>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-switch button').forEach(el => el.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  document.querySelector('.lang-switch button[onclick*="' + lang + '"]').classList.add('active');
+  document.documentElement.lang = lang;
+}
+</script>
+
+</body>
+</html>
